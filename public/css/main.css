@@ -1,0 +1,312 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900&display=swap');
+
+* {
+  font-family: Roboto, Arial;
+}
+/* INITIAL */
+:root {
+  --albondadBlack: rgba(58, 62, 70, 1);
+  --albondadBlackSecondary: rgba(58, 62, 70, .5);
+  --albondadGray: rgba(248, 249, 250, 1);
+  --albondadWhite: rgba(255, 255, 255, 1);
+  --albondadWhiteSecondary: rgba(255, 255, 255, .5);
+}
+
+
+/* BACKGROUND COLORS */
+.bg-albondadBlack {
+  background-color: var(--albondadBlack);
+}
+.bg-albondadGray {
+  background-color: var(--albondadGray)
+}
+.bg-albondadWhite {
+  background-color: var(--albondadWhite)
+}
+
+
+/* BODY */
+.body-contentPadding {
+    padding: 0% 10%;
+}
+
+
+/* FONTS AND TEXT */
+.foColor-albondadBlack {
+  color: var(--albondadBlack);
+}
+.foColor-albondadGray {
+  color: var(--albondadGray);
+}
+.foColor-albondadWhite {
+  color: var(--albondadWhite);
+}
+.heading-1 {
+  font-size: 48px;
+}
+@media (max-width: 575.98px) {
+  .heading-1 {
+    font-size: 32px;;
+  }
+}
+
+/* SCROLL BAR */
+::-webkit-scrollbar {
+  width: 0px;
+}
+::-webkit-scrollbar-track {
+  background: none;
+}
+::-webkit-scrollbar-thumb {
+  background: none;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: none;
+}
+
+
+/* LINKS */
+a, .link {
+  color: var(--albondadBlack);
+  transition: color .25s;
+}
+a:hover, a:focus, a:active, .link:hover, .link:focus, .link:active {
+  color: var(--albondadBlackSecondary);
+  text-decoration: none;
+}
+
+
+/* BUTTON */
+button {
+  width: 128px;
+  height: 32px;
+  margin-top: 32px;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--albondadGray);
+  color: var(--albondadBlack);
+  transition: transform .25s, background-color .25s, color .25s;
+}
+button:hover, button:active, button:focus {
+  color: var(--albondadWhite);
+  background-color: var(--albondadBlack);
+}
+
+/* BOX SHADOW */
+.box-shadow {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, .16);
+}
+
+
+/* MODAL */
+.modal-backdrop {
+  position: fixed;
+  z-index: 100;
+  top: 0px;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, .32);
+}
+.modal-content {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  position: fixed;
+  z-index: 100;
+  width: 50%;
+  margin-left: 25%;
+  min-height: auto;
+  max-height: calc(100vh - 128px);
+  overflow-y: scroll;
+}
+@media (max-width: 767.98px) {
+  .modal-content {
+    margin-left: 5%;
+    width: 90%;
+  }
+}
+
+
+/* ICONS */
+.icon-container {
+  transition: color .25s, transform .25s;
+}
+.icon-container:hover {
+  transform: scale(1.2);
+}
+.icon-logo {
+  background-color: var(--albondadWhite);
+  border-radius: 4px;
+  color: var(--albondadBlack);
+}
+.icon-logo i, .icon-logo span{
+  transition: transform .25s, color.5s;
+}
+.icon-logo i:hover, .icon-logo span:hover{
+  transform: scale(1.2);
+}
+.icon-text {
+  margin-top: 4px;
+  margin-bottom: 16px;
+  color: var(--albondadWhite);
+  font-weight: bold;
+}
+.icon:hover {
+  text-transform:
+}
+
+
+/* SKILLS */
+.skills-container, skills-title {
+  text-align: justify;
+}
+.skills-title {
+  padding: 0px 8px
+}
+@media (max-width: 767.98px) {
+  .skills-container, skills-title {
+    text-align: center;
+  }
+  .skills-title {
+    padding: 0px;
+  }
+}
+
+
+/* NAVIGATION */
+@media (max-width: 767.98px) {
+  .navbar .nav-item {
+    padding: 0px;
+    text-align: center;
+  }
+}
+
+
+/* PROJECTS */
+/* project container */
+.project-container {
+  border-radius: 4px;
+  filter: grayscale(.75);
+  transition: transform .25s, filter .25s;
+}
+.project-container:hover {
+  transform: scale(1.05);
+  filter: grayscale(0);
+}
+.projects-title {
+  padding: 0px 8px;
+  text-align: justify;
+}
+@media (max-width: 767.98px) {
+  .projects-title {
+    padding: 0px;
+    text-align: center;
+  }
+}
+
+
+/* PROJECT DESCRIPTION */
+.projectDescription-headerContainer {
+  padding: 32px 16px;
+  background-color: var(--albondadWhite);
+}
+.projectDescription-headerTitle {
+  font-size: 32px;
+  font-weight: bold;
+}
+.projectDescription-headerTitle {
+  font-size: 32px;
+}
+.projectDescription-image {
+  width: 100%;
+  height: auto;
+}
+.projectDescription-descriptionContainer {
+  padding: 32px 16px;
+  background-color: var(--albondadWhite);
+}
+.projectDescription-descriptionTitle {
+  font-size: 24px;
+  font-weight: bold;
+}
+.projectDescription-descriptionContent {
+  font-size: 16px;
+}
+.projectDescription-descriptionTools {
+  margin-top: 16px;
+  font-size: 12px;
+}
+.projectDescription-descriptionContainer button {
+  background-color: var(--albondadBlack);
+  color: var(--white);
+}
+.projectDescription-descriptionContainer button:hover, .projectDescription-descriptionContainer button:focus, .projectDescription-descriptionContainer button:active {
+  background-color: var(--albondadBlackSecondary);
+  color: var(--white);
+}
+@media (max-width: 767.98px) {
+  .projectDescription-headerTitle, .projectDescription-headerTitle, .projectDescription-descriptionTitle, .projectDescription-descriptionContent {
+    font-size: 16px;
+  }
+  .projectDescription-headerTitle {
+    font-size: 16px;
+  }
+  .projectDescription-descriptionContainer button {
+    width: 100%;
+  }
+}
+
+
+
+/* CONTACT FORM */
+.contactForm-container {
+  width: 50%;
+}
+@media (max-width: 767.98px) {
+  .contactForm-container {
+    width: 100%;
+  }
+}
+
+.contactForm input, .contactForm textarea {
+  display: block;
+  border-radius: 4px;
+  border: none;
+  margin-top: 32px;
+  padding: 4px 8px;
+}
+.contactForm input::placeholder, .contactForm textarea::placeholder {
+  font-weight: lighter;
+  color: var(--albondadBlack);
+}
+.contactForm input {
+  height: 32px;
+  width: 100%;
+}
+.contactForm textarea {
+  min-height: 128px;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+}
+.contactForm button:hover, .contactForm button:hover, .contactForm button:hover {
+  background-color: var(--albondadWhiteSecondary);
+}
+@media (max-width: 767.98px) {
+  .contactForm-container {
+    text-align: center;
+  }
+  .contactForm button {
+    width: 100%;
+  }
+}
+
+
+/* SOCIAL MEDIA */
+.socialMedia-container {
+  transition: transform .25s;
+}
+.socialMedia-container:hover {
+  transform: scale(1.2);
+}
