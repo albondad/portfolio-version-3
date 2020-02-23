@@ -17,9 +17,10 @@ const projectsData = [
           "slideshow-zaner-06.jpg",
           "slideshow-zaner-07.jpg",
         ],
-        "projectSource": "",
-        "viewOnText": "GitHub",
-        "viewOnSource": "",
+        "description": "Zaner is a financial service group primarily focused on risk management. I worked with the company of the upcoming products for their digital assets division as a UI and UX developer. I was able to design and build a style guide and pattern library for use in current and future applications, while designing and implementing views for one of their current web applications. I’ve attached previews of the final products and designs above.",
+        "projectSource": "https://www.instagram.com/p/B8YGRavpGq4/",
+        "viewOnText": "Instagram",
+        "viewOnSource": "https://www.instagram.com/p/B8YGRavpGq4/",
         "tools": "Boostrap CSS, jQuery, CSS"
     },
     // Gyst Audio
@@ -34,9 +35,10 @@ const projectsData = [
           "slideshow-gystAudio-02.jpg",
           "slideshow-gystAudio-03.jpg",
         ],
-        "projectSource": "",
-        "viewOnText": "",
-        "viewOnSource": "",
+        "description": "Gyst audio is a technology startup that aims to provide audio services. Their technology allows clients to connect with professional voice actors and narrators to create audio versions of their published written works. I worked with the company as a front end developer intern, designing and implementing web related UI components to be used for both the company and clients. I’ve attached previews of the final products above.",
+        "projectSource": "https://www.instagram.com/p/B8YF8SQJS3X/",
+        "viewOnText": "Instagram",
+        "viewOnSource": "https://www.instagram.com/p/B8YF8SQJS3X/",
         "tools": "React, jQuery, Boostrap, Python, CSS"
     },
     // Block Scheduler
@@ -52,9 +54,9 @@ const projectsData = [
           "slideshow-blockScheduler-03.jpg",
           "slideshow-blockScheduler-04.jpg",
         ],
-        "projectSource": "",
-        "viewOnText": "GitHub",
-        "viewOnSource": "",
+        "description" : "I developed a web application that allows users to keep track of day to day activities or tasks that follow a block schedule pattern. Features include individual account creation and authentication, the ability to create multiple customizable schedules for different situations, and a live timer to keep track of the time.",
+        "viewOnText": "Website",
+        "viewOnSource": "https://albondad-blokscheduler.netlify.com/",
         "tools": "React, Firebase, Boostrap, Python, CSS"
     },
     // Debatable
@@ -74,9 +76,10 @@ const projectsData = [
           "slideshow-debatable-07.jpg",
           "slideshow-debatable-08.jpg",
         ],
-        "projectSource": "",
-        "viewOnText": "GitHub",
-        "viewOnSource": "",
+        "description": "Debatable is a web application based on holding online debates through the use of online chat rooms. Development happened during the 2019 Build Chicago Hackathon, where teams were given 24 hours to build a solution using Pusher’s API that provides real time features. I led the team that was designing and implementing the front end side of the application. Most of the designs were completed and the final products can be viewed above.",
+        "projectSource": "https://www.instagram.com/p/B8YGRavpGq4/",
+        "viewOnText": "Instagram",
+        "viewOnSource": "https://www.instagram.com/p/B79EsRwAJTF/",
         "tools": "React, Boostrap, Python, CSS"
     },
     // YouTube Channel Statistics
@@ -90,9 +93,9 @@ const projectsData = [
           "slideshow-youTubeChannelStatistics-01.jpg",
           "slideshow-youTubeChannelStatistics-02.jpg",
         ],
-        "projectSource": "",
-        "viewOnText": "GitHub",
-        "viewOnSource": "",
+        "description" : "YouTube Channel Statistics is a web application I developed to allow users to search multiple YouTube channels and to view and compare channel statistics. Features include the ability to search for channels by their channel name or channel ID, displaying basic statistics of the channel, and live tracking of a channel subscriber count. I attached a picture of the application above, along with some of the designs I had during the planning process.",
+        "viewOnText": "Website",
+        "viewOnSource": "https://albondad-youtubechannelstatstracker.netlify.com/",
         "tools": "YouTube Data API, Chart.js, jQuery, Boostrap"
     }
     // {

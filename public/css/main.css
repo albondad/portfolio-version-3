@@ -207,6 +207,7 @@ button:hover, button:active, button:focus {
 
 
 /* PROJECT DESCRIPTION */
+/* header */
 .projectDescription-headerContainer {
   padding: 32px 16px;
   background-color: var(--albondadWhite);
@@ -218,10 +219,17 @@ button:hover, button:active, button:focus {
 .projectDescription-headerTitle {
   font-size: 32px;
 }
+/* slideshow */
 .projectDescription-image {
   width: 100%;
   height: auto;
 }
+.projectDescription-slideshowButton:hover, .projectDescription-slideshowButton:focus, .projectDescription-slideshowButton:active {
+  color: var(--albondadBlackSecondary);
+  transform: scale(1.2);
+  cursor: pointer;
+}
+/* description */
 .projectDescription-descriptionContainer {
   padding: 32px 16px;
   background-color: var(--albondadWhite);
@@ -234,8 +242,9 @@ button:hover, button:active, button:focus {
   font-size: 16px;
 }
 .projectDescription-descriptionTools {
+  color: var(--albondadBlackSecondary);
   margin-top: 16px;
-  font-size: 12px;
+  font-size: 16px;
 }
 .projectDescription-descriptionContainer button {
   background-color: var(--albondadBlack);
@@ -255,6 +264,10 @@ button:hover, button:active, button:focus {
   .projectDescription-descriptionContainer button {
     width: 100%;
   }
+}
+.projectDescription-slideshowButton {
+  display: inline-block;
+  transition: color .25s, transform .25s;
 }
 
 

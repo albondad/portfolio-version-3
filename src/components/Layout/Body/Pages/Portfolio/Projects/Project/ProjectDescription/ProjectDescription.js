@@ -32,7 +32,12 @@ class ProjectDescription extends Component {
           {/* Header */}
           <div className="projectDescription-headerContainer">
             <div className="projectDescription-headerTitle">{this.props.projectData.title}</div>
-            <div className="projectDescription-headerViewOn">View On GitHub</div>
+            <div className="projectDescription-headerViewOn">{
+              this.props.projectData.viewOnText
+              ? <a href={this.props.projectData.viewOnSource} target={"_blank"}>{"View On " + this.props.projectData.viewOnText}</a>
+              : null
+            }
+            </div>
           </div>
 
           {/* Slideshow Images */}
@@ -43,19 +48,14 @@ class ProjectDescription extends Component {
           {/* Slideshow Buttons */}
           <div className="pt-16px">
             {/* back button */}
-            <div onClick={this.backImage} className="w-50 pl-16px d-inline-block foSize-12px text-left foWeight-bold"><i className="fas fa-arrow-left fa-fw"></i> Back</div>
+            <div onClick={this.backImage} className="w-50 pl-16px d-inline-block foSize-12px text-left foWeight-bold"><span className="d-inline-block projectDescription-slideshowButton"><i className="fas fa-arrow-left fa-fw"></i> Back</span></div>
             {/* next button */}
-            <div onClick={this.nextImage} className="w-50 pr-16px d-inline-block foSize-12px text-right foWeight-bold">Next <i className="fas fa-arrow-right fa-fw"></i></div>
+            <div onClick={this.nextImage} className="w-50 pr-16px d-inline-block foSize-12px text-right foWeight-bold"><span className="d-inline-block projectDescription-slideshowButton">Next <i className="fas fa-arrow-right fa-fw"></i></span></div>
           </div>
 
           {/* Description */}
           <div className="projectDescription-descriptionContainer text-right">
-            <div className="projectDescription-descriptionContent text-left">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-            non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </div>
+            <div className="projectDescription-descriptionContent text-left">{this.props.projectData.description}</div>
             <div className="projectDescription-descriptionTools text-left">{this.props.projectData.tools}</div>
             <button onClick={this.props.functions.hideModal}>Back</button>
           </div>

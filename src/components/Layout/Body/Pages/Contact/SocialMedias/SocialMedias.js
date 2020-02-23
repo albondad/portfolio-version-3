@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Icon from '../../../../UI/Icon/Icon';
 import SocialMedia from './SocialMedia/SocialMedia';
 
+import resume from '../../../../../../resume.pdf'
 class SocialMedias extends Component {
   render() {
     return (
@@ -11,7 +12,7 @@ class SocialMedias extends Component {
 
             {/* Resume */}
             <SocialMedia
-              link="google.com"
+              link={resume}
               logo={<i className="fas fa-file-alt fa-fw foSize-32px"></i>}
               text="Resume"
             />
