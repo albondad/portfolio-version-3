@@ -98,7 +98,7 @@ const projectsData = [
           "slideshow-youTubeChannelStatistics-01.jpg",
           "slideshow-youTubeChannelStatistics-02.jpg",
         ],
-        "description" : "YouTube Channel Statistics is a web application I developed to allow users to search multiple YouTube channels and to view and compare channel statistics. Features include the ability to search for channels by their channel name or channel ID, displaying basic statistics of the channel, and live tracking of a channel subscriber count. Unfortunately, with the recent update of YouTube's Data API, some features may not work the way theyre supposed to anymore. I attached a picture of the application above, along with some of the designs I had during the planning process.",
+        "description" : "YouTube Channel Statistics is a web application I developed to allow users to search multiple YouTube channels and to view and compare channel statistics. Features include the ability to search for channels by their channel name or channel ID, displaying basic statistics of the channel, and live tracking of a channel subscriber count. Unfortunately, with the recent update of YouTube's Data API, some features may not work the way they're supposed to anymore. I attached a picture of the application above, along with some of the designs I had during the planning process.",
         "viewOnText": "Website",
         "viewOnSource": "https://albondad-youtubechannelstatstracker.netlify.com/",
         "tools": "YouTube Data API, Chart.js, jQuery, Boostrap"
