@@ -47,7 +47,7 @@ const projectsData = [
     {
         "show": true,
         "title": "Block Scheduler",
-        "subTitle" : "Developer",
+        "subTitle" : "Side Project",
         "tags": ["Development"],
         "thumbnailSource": "thumbnail-blockScheduler.jpg",
         "slideshowImages": [
@@ -65,7 +65,7 @@ const projectsData = [
     // Debatable
     {
         "show": true,
-        "title": "Debatable",
+        "title": "Build Chicago Hackathon",
         "subTitle" : "Developer",
         "tags": ["Design"],
         "thumbnailSource": "thumbnail-debatable.jpg",
@@ -90,7 +90,7 @@ const projectsData = [
     {
         "show": true,
         "title": "YouTube Channel Statistics",
-        "subTitle" : "Developer",
+        "subTitle" : "Side Project",
         "tags": ["Development"],
         "thumbnailSource": "thumbnail-youTubeChannelStatistics.jpg",
         "slideshowImages": [
