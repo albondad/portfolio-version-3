@@ -65,8 +65,8 @@ const projectsData = [
     // Debatable
     {
         "show": true,
-        "title": "Build Chicago Hackathon",
-        "subTitle" : "Developer",
+        "title": "Debatable",
+        "subTitle" : "Build Chicago Hackathon",
         "tags": ["Design"],
         "thumbnailSource": "thumbnail-debatable.jpg",
         "slideshowImages": [
