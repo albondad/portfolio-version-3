@@ -5,6 +5,10 @@ import SocialMedias from './SocialMedias/SocialMedias';
 import transitionBlackToWhite from '../../../../../imgs/img-transitionBlackToWhite.png';
 
 class Portfolio extends Component {
+  sendEmail = (e) => {
+    e.preventDefault();
+    window.location.href="/"
+  }
   render() {
     return (
       <>
@@ -17,7 +21,7 @@ class Portfolio extends Component {
                 <input className="box-shadow" placeholder="email"/>
                 <input className="box-shadow" placeholder="subject"/>
                 <textarea className="box-shadow" placeholder="message"/>
-                <button className="foSize-16px foWeight-bold box-shadow hover-scale">Send</button>
+                <button onClick={this.sendEmail} className="foSize-16px foWeight-bold box-shadow hover-scale">Send</button>
               </form>
             </div>
           </div>
