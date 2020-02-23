@@ -22,6 +22,7 @@ class Projects extends Component {
           projectOnClick={this.props.functions.showModal}
           projectSource={project.projectSource}
           title={project.title}
+          subTitle={project.subTitle}
           viewOnText={project.viewOnText}
           viewOnSource={project.viewOnSource}
           thumbnailSource={thumbnailSource}

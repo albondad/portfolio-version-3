@@ -3,6 +3,7 @@ const projectsData = [
     {
         "show": true,
         "title": "Zaner",
+        "subTitle" : "UI and UX Developer",
         "tags": ["Development"],
         "thumbnailSource": "thumbnail-zaner.jpg",
         "slideshowImages": [
@@ -27,6 +28,7 @@ const projectsData = [
     {
         "show": true,
         "title": "Gyst Audio",
+        "subTitle" : "Front End Developer Internship",
         "tags": ["Development"],
         "thumbnailSource": "thumbnail-gystAudio.jpg",
         "slideshowImages": [
@@ -45,6 +47,7 @@ const projectsData = [
     {
         "show": true,
         "title": "Block Scheduler",
+        "subTitle" : "Developer",
         "tags": ["Development"],
         "thumbnailSource": "thumbnail-blockScheduler.jpg",
         "slideshowImages": [
@@ -63,6 +66,7 @@ const projectsData = [
     {
         "show": true,
         "title": "Debatable",
+        "subTitle" : "Developer",
         "tags": ["Design"],
         "thumbnailSource": "thumbnail-debatable.jpg",
         "slideshowImages": [
@@ -86,6 +90,7 @@ const projectsData = [
     {
         "show": true,
         "title": "YouTube Channel Statistics",
+        "subTitle" : "Developer",
         "tags": ["Development"],
         "thumbnailSource": "thumbnail-youTubeChannelStatistics.jpg",
         "slideshowImages": [

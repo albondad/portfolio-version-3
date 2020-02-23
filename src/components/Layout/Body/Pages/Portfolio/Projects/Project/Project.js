@@ -12,6 +12,7 @@ class Project extends Component {
           <div className="bg-albondadWhite box-shadow pt-8px pr-8px pb-8px pl-8px project-container">
             <div className="foWeight-bold"><img className="w-100 project-thumbnail" src={this.props.thumbnailSource} /></div>
             <div className="pt-8px foSize-16px foWeight-bold">{this.props.title}</div>
+            <div className="foSize-12px">{this.props.subTitle}</div>
             {/*<div className="foSize-16px"><a href={this.props.viewOnSource} target="_blank">{this.props.viewOnText ? "View on " + this.props.viewOnText : "\xa0"}</a></div>*/}
           </div>
         </div>
