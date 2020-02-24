@@ -18,7 +18,7 @@ const projectsData = [
           "slideshow-zaner-06.jpg",
           "slideshow-zaner-07.jpg",
         ],
-        "description": "Zaner is a financial service group primarily focused on risk management. I worked with the company of the upcoming products and their digital assets division as a UI and UX developer. I was able to design and build a style guide and pattern library for use in current and future applications, while designing and implementing views for one of their current web applications. I’ve attached previews of the final products and designs above.",
+        "description": "Zaner is a financial service group primarily focused on risk management. I worked with the company building their upcoming products for their digital assets division as a UI and UX developer. I was able to design and build a style guide and pattern library for use in current and future applications, while designing and implementing views for one of their current web applications. I’ve attached previews of the final products and designs above.",
         "projectSource": "https://www.instagram.com/p/B8YGRavpGq4/",
         "viewOnText": "Instagram",
         "viewOnSource": "https://www.instagram.com/p/B8YGRavpGq4/",
