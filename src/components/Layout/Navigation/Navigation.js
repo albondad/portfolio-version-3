@@ -5,7 +5,7 @@ class Navigation extends Component {
   render() {
     return (
       <section>
-          <div className="navbar navbar-expand-lg pt-16px pr-10per pl-10per pb-16px animationName-fadeIn animationDuration-1s">
+          <div className="navbar navbar-expand-lg pt-16px pr-10per pl-10per pb-16px animationName-fadeIn animationDuration-2s">
             {/* logo */}
             <Link className="navbar-brand foSize-32px foWeight-bold" to="/">AL BONDAD</Link>
             <div className="navbar-toggler" type="button" data-toggle="collapse" data-target="#links" aria-controls="links" aria-expanded="false" aria-label="Toggle navigation">
