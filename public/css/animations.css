@@ -1,3 +1,4 @@
+/* FADE IN */
 .animationName-fadeIn {
   animation-name: fadeIn;
 }
@@ -6,6 +7,7 @@
   to {opacity: 1}
 }
 
+/* SLIDE RIGHT */
 .animationName-slideRight {
   animation-name: slideRight;
 }
@@ -13,7 +15,32 @@
   from {transform: translateX(-100vh)}
   to {transform: translateX(-0vh)}
 }
+/* SLIDE DOWN */
+.animationName-slideDown {
+  animation-name: slideDown;
+}
+@keyframes slideDown {
+  from {transform: scaleY(0);}
+  to {transform: scaleY(1);}
+}
 
+/* ANIMATION DURATION */
 .animationDuration-1s {
   animation-duration: 1s;
+}
+.animationDuration-2s {
+  animation-duration: 2s;
+}
+.animationDuration-3s {
+  animation-duration: 3s;
+}
+.animationDuration-4s {
+  animation-duration: 4s;
+}
+.animationDuration-16s {
+  animation-duration: 16s;
+}
+
+.animation-loop {
+  animation-iteration-count: infinite;
 }

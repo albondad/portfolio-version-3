@@ -34,7 +34,7 @@ class Portfolio extends Component {
         <div className="bg-albondadGray pt-128px pb-128px">
           <div className="body-contentPadding">
             <div className="heading-1 foColor-albondadBlack foWeight-lighter pl-8px mb-16px text-center animationName-fadeIn animationDuration-1s">Social Media</div>
-            <div>
+            <div className="animationName-slideRight animationDuration-1s">
               <SocialMedias />
             <div>
           </div>
