@@ -12,7 +12,9 @@
   --albondadWhite: rgba(255, 255, 255, 1);
   --albondadWhiteSecondary: rgba(255, 255, 255, .5);
 }
-
+body {
+  background-color: var(--albondadGray);
+}
 
 /* BACKGROUND COLORS */
 .bg-albondadBlack {
@@ -142,6 +144,9 @@ button:hover, button:active, button:focus {
 /* ICONS */
 .icon-container {
   transition: color .25s, transform .25s;
+  overflow: hidden;
+  animation-name: slideRight;
+  animation-duration: 1s;
 }
 .icon-container:hover {
   transform: scale(1.2);
@@ -208,6 +213,8 @@ button:hover, button:active, button:focus {
   border-radius: 4px;
   filter: grayscale(.75);
   transition: transform .25s, filter .25s;
+  animation-name: slideRight;
+  animation-duration: 1s;
 }
 .project-container:hover {
   transform: scale(1.05);
@@ -313,7 +320,7 @@ button:hover, button:active, button:focus {
   display: block;
   border-radius: 4px;
   border: none;
-  margin-top: 32px;
+  margin-top: 16px;
   padding: 4px 8px;
 }
 .contactForm input::placeholder, .contactForm textarea::placeholder {

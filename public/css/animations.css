@@ -1,0 +1,19 @@
+.animationName-fadeIn {
+  animation-name: fadeIn;
+}
+@keyframes fadeIn {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+.animationName-slideRight {
+  animation-name: slideRight;
+}
+@keyframes slideRight {
+  from {transform: translateX(-100vh)}
+  to {transform: translateX(-0vh)}
+}
+
+.animationDuration-1s {
+  animation-duration: 1s;
+}

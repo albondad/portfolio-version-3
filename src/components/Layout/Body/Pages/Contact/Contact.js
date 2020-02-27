@@ -15,9 +15,9 @@ class Portfolio extends Component {
         {/* CONTACT FORM */}
         <div className="bg-albondadBlack pt-128px pb-128px">
           <div className="body-contentPadding">
-            <div className="heading-1 foColor-albondadWhite foWeight-lighter pl-8px mb-16px text-center">Leave a Message</div>
+            <div className="heading-1 foColor-albondadWhite foWeight-lighter pl-8px mb-16px text-center animationName-fadeIn animationDuration-1s">Leave a Message</div>
             <div className="text-right">
-              <form className="contactForm contactForm-container m-auto">
+              <form className="contactForm contactForm-container m-auto animationName-slideRight animationDuration-1s">
                 <input className="box-shadow" placeholder="email"/>
                 <input className="box-shadow" placeholder="subject"/>
                 <textarea className="box-shadow" placeholder="message"/>
@@ -33,7 +33,7 @@ class Portfolio extends Component {
         {/* SOCIAL MEDIA LINKS */}
         <div className="bg-albondadGray pt-128px pb-128px">
           <div className="body-contentPadding">
-            <div className="heading-1 foColor-albondadBlack foWeight-lighter pl-8px mb-16px text-center">Social Media</div>
+            <div className="heading-1 foColor-albondadBlack foWeight-lighter pl-8px mb-16px text-center animationName-fadeIn animationDuration-1s">Social Media</div>
             <div>
               <SocialMedias />
             <div>
