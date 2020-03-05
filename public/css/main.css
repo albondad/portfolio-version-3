@@ -216,6 +216,7 @@ button:hover, button:active, button:focus {
   transition: transform .25s, filter .25s;
   animation-name: slideRight;
   animation-duration: 1s;
+  cursor: pointer;
 }
 .project-container:hover {
   transform: scale(1.05);
