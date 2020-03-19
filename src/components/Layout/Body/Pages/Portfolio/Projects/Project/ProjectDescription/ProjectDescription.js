@@ -33,8 +33,18 @@ class ProjectDescription extends Component {
           <div className="projectDescription-headerContainer">
             <div className="projectDescription-headerTitle">{this.props.projectData.title}</div>
             <div className="projectDescription-headerViewOn">{
-              this.props.projectData.viewOnText
-              ? <a href={this.props.projectData.viewOnSource} target={"_blank"}>{"View On " + this.props.projectData.viewOnText}</a>
+              this.props.projectData.viewSiteLink
+              ? <a href={this.props.projectData.viewSiteLink} target={"_blank"}>{"View Site"}</a>
+              : null
+            }
+            {
+              this.props.projectData.viewSiteLink && this.props.projectData.viewCodeLink
+              ? <span>&nbsp;&nbsp; | &nbsp;&nbsp;</span>
+              : null
+            }
+            {
+              this.props.projectData.viewCodeLink
+              ? <a href={this.props.projectData.viewCodeLink} target={"_blank"}>{"View Code"}</a>
               : null
             }
             </div>
@@ -48,9 +58,9 @@ class ProjectDescription extends Component {
           {/* Slideshow Buttons */}
           <div className="pt-16px">
             {/* back button */}
-            <div onClick={this.backImage} className="w-50 pl-16px d-inline-block foSize-12px text-left foWeight-bold"><span className="d-inline-block projectDescription-slideshowButton"><i className="fas fa-arrow-left fa-fw"></i> Back</span></div>
+            <div onClick={this.backImage} className="w-50 pl-16px d-inline-block foSize-12px text-left foWeight-bold"><span className="d-inline-block projectDescription-slideshowButton"><i className="fas fa-arrow-left fa-fw"></i> Previous Image</span></div>
             {/* next button */}
-            <div onClick={this.nextImage} className="w-50 pr-16px d-inline-block foSize-12px text-right foWeight-bold"><span className="d-inline-block projectDescription-slideshowButton">Next <i className="fas fa-arrow-right fa-fw"></i></span></div>
+            <div onClick={this.nextImage} className="w-50 pr-16px d-inline-block foSize-12px text-right foWeight-bold"><span className="d-inline-block projectDescription-slideshowButton">Next Image <i className="fas fa-arrow-right fa-fw"></i></span></div>
           </div>
 
           {/* Description */}
