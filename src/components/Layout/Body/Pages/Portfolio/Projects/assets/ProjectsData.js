@@ -7,16 +7,12 @@ const projectsData = [
         "tags": ["Development"],
         "thumbnailSource": "thumbnail-zaner.jpg",
         "slideshowImages": [
-          "thumbnail-zaner.jpg",
-          "slideshow-zaner-08.jpg",
-          "slideshow-zaner-09.jpg",
           "slideshow-zaner-01.jpg",
           "slideshow-zaner-02.jpg",
           "slideshow-zaner-03.jpg",
           "slideshow-zaner-04.jpg",
           "slideshow-zaner-05.jpg",
           "slideshow-zaner-06.jpg",
-          "slideshow-zaner-07.jpg",
         ],
         "description": "Zaner is a financial service group primarily focused on risk management. I worked with the company building their upcoming products for their digital assets division as a UI and UX developer. I was able to design and build a style guide and pattern library for use in current and future applications, while designing and implementing views for one of their current web applications. I’ve attached previews of the final products and designs above.",
         "projectSource": "https://www.instagram.com/p/B8YGRavpGq4/",
@@ -32,7 +28,6 @@ const projectsData = [
         "tags": ["Development"],
         "thumbnailSource": "thumbnail-gystAudio.jpg",
         "slideshowImages": [
-          "thumbnail-gystAudio.jpg",
           "slideshow-gystAudio-01.jpg",
           "slideshow-gystAudio-02.jpg",
           "slideshow-gystAudio-03.jpg",
@@ -51,7 +46,6 @@ const projectsData = [
         "tags": ["Development"],
         "thumbnailSource": "thumbnail-blockScheduler.jpg",
         "slideshowImages": [
-          "thumbnail-blockScheduler.jpg",
           "slideshow-blockScheduler-01.jpg",
           "slideshow-blockScheduler-02.jpg",
           "slideshow-blockScheduler-03.jpg",
@@ -70,7 +64,6 @@ const projectsData = [
         "tags": ["Design"],
         "thumbnailSource": "thumbnail-debatable.jpg",
         "slideshowImages": [
-          "thumbnail-debatable.jpg",
           "slideshow-debatable-01.jpg",
           "slideshow-debatable-02.jpg",
           "slideshow-debatable-03.jpg",
@@ -94,7 +87,6 @@ const projectsData = [
         "tags": ["Development"],
         "thumbnailSource": "thumbnail-youTubeChannelStatistics.jpg",
         "slideshowImages": [
-          "thumbnail-youTubeChannelStatistics.jpg",
           "slideshow-youTubeChannelStatistics-01.jpg",
           "slideshow-youTubeChannelStatistics-02.jpg",
         ],
